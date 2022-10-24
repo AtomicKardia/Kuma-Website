@@ -1920,6 +1920,22 @@ text-decoration: none;
 	background: #81D742;
 }
 
+.filter-widget .fw-color-choose .cs-item label.cs-grayPink:before {
+	background: rgb(221, 169, 176);
+}
+
+.filter-widget .fw-color-choose .cs-item label.cs-pink:before {
+	background: rgb(230, 108, 124);
+}
+
+.filter-widget .fw-color-choose .cs-item label.cs-redOrange:before {
+	background: rgb(255, 109, 42);
+}
+
+.filter-widget .fw-color-choose .cs-item label.cs-white:before {
+	background: rgb(255, 255, 255);
+}
+
 .filter-widget .fw-color-choose .cs-item label:before {
 	position: absolute;
 	left: 0;
@@ -1961,6 +1977,10 @@ text-decoration: none;
 .filter-widget .fw-size-choose .sc-item label.active {
 	background: var(--brown);
 	color: #ffffff;
+}
+
+.filter-widget .stupid-tags .fw-title{
+	padding-top: 98px;
 }
 
 .filter-widget .fw-tags a {
@@ -3742,7 +3762,7 @@ text-decoration: none;
 
 .faq-section {
 	padding-top: 160px;
-	padding-bottom: 100px;
+	padding-bottom: 200px;
 }
 
 .faq-accordin .card {
